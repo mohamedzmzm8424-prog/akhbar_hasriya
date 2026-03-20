@@ -1,0 +1,21 @@
+name: akhbar_hasriya
+description: أخبار حصرية
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  webfeed: ^0.7.0
+  cached_network_image: ^3.3.1
+  share_plus: ^7.2.2
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+  webview_flutter: ^4.7.0
+
+flutter:
+  uses-material-design: true
